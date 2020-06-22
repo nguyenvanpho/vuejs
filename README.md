@@ -6,24 +6,24 @@ Vue 2.6 + Laravel 6 + Axios CRUD example app
 
 See https://vuejsdevelopers.com/2018/02/05/vue-laravel-crud/ Inspiration from https://github.com/herusdianto/laravel-vue-crud
 
-Installation
+1:Installation
 Clone repo
 
-Change to directory
+2:Change to directory
 
 cd vue-laravel-crud
-Install dependencies
+3:Install dependencies
 composer install
-Copy .env file
+4:Copy .env file
 cp .env.example .env
-Modify DB_* value in .env with your database config.
+5:Modify DB_* value in .env with your database config.
 
-Generate application key:
+6:Generate application key:
 
 php artisan key:generate
-Migrate
+7:Migrate
 php artisan migrate
-Install Node modules
+8:Install Node modules
 npm install
 Build
 npm run prod
@@ -32,7 +32,7 @@ cài yarn install
 xong chạy 
 yarn run prod
 )
-Dummy Data
+9:Dummy Data
 Open Tinker
 php artisan tinker
 Use factory script
